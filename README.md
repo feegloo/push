@@ -15,4 +15,8 @@ push () {
   git push -u origin master &> /dev/null
   /usr/bin/open -a "/Applications/Google Chrome.app" https://github.com/feegloo/$(basename "$PWD")
 }
+
+pull() {
+  git pull --rebase
+}
 ```
