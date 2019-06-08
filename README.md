@@ -1,3 +1,10 @@
+##### TODO : API
+
+`push foo  // creates directory foo (if doesnt exists) and pushes new repository`
+
+`push // if current directory is git repository, pushes all changes`
+
+
 ```
 # Usage:
 #
