@@ -19,4 +19,8 @@ push () {
 pull() {
   git pull --rebase
 }
+
+# TODO
+# git config --global credential.helper osxkeychain
+# https://help.github.com/en/articles/caching-your-github-password-in-git
 ```
