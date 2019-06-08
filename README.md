@@ -6,15 +6,18 @@
 # push
 push () {
   #git config --global user.name
-  curl -s -o /dev/null -u feegloo https://api.github.com/user/repos -d "{\"name\": \"$(basename "$PWD")\"}"
+  response_code=`curl -s -o /dev/null -u feegloo https://api.github.com/user/repos -d "{\"name\": \"$(basename "$PWD")\"}" -w "%{http_code}"`
   touch README.md
   git init &> /dev/null
   git add README.md &> /dev/null
   git commit -m "push" &> /dev/null
   git remote add origin https://github.com/feegloo/$(basename "$PWD").git &> /dev/null
   git push -u origin master &> /dev/null
-  /usr/bin/open -a "/Applications/Google Chrome.app" https://github.com/feegloo/$(basename "$PWD")
-}
+
+  if (( $response_code == 201 )); then
+    /usr/bin/open -a "/Applications/Google Chrome.app" https://github.com/feegloo/$(basename "$PWD")
+  fi
+
 
 pull() {
   git pull --rebase
