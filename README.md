@@ -6,4 +6,4 @@
 
 #### Installation
 
-`source <(curl -s https://raw.githubusercontent.com/feegloo/push/master/install)`
+`curl -s https://raw.githubusercontent.com/feegloo/push/master/install | bash`
