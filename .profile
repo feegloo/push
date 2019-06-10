@@ -1,3 +1,4 @@
+# github.com/feegloo/push
 push () {
   dir=${1%/}
   if [ -n "$dir" ]; then
