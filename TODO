@@ -1,3 +1,19 @@
+-v (verbose, no-silent)
+path support (now dir only)
+take user and pass from osxkeychain (or ask for user / pass )
+pull as seperate repo?
+homebrew package?
+
+
+
+
+
+
+
+
+
+
+
 ##### TODO : API
 
 `push foo  // pushes new repository from existing dir foo`
