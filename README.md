@@ -6,7 +6,7 @@
 
 #### Installation
 
-add below code to ~/.profile (macOS) or copy [.profile](.profile)
+add below code to ~/.profile (macOS) or copy [.profile](https://raw.githubusercontent.com/feegloo/push/master/.profile)
 
 ```
 push () {
