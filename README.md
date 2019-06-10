@@ -1,6 +1,6 @@
 #### Terminal
 
-`push foo`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`// pushes new repository 'foo' to github. 'foo' can be existing directory or it will be auto-created`
+`push foo`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`// pushes new repository 'foo' to github. 'foo' can be new/existing directory`
 
 `push`&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`// pushes all changes from current directory`
 
