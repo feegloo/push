@@ -10,5 +10,5 @@
 
 #### Demo
 
-![push new-repo](https://user-images.githubusercontent.com/7686877/59213311-d5de4a80-8bb4-11e9-978f-708e356aa0a3.gif)
-![push](https://user-images.githubusercontent.com/7686877/59213284-c8c15b80-8bb4-11e9-97f3-024448619b75.gif)
+![push new-repo](https://user-images.githubusercontent.com/7686877/59213769-e3e09b00-8bb5-11e9-801d-2843924e83e7.gif)
+![push](https://user-images.githubusercontent.com/7686877/59213765-e0e5aa80-8bb5-11e9-8c38-b15ae55b4275.gif)
