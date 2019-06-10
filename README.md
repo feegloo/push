@@ -6,4 +6,4 @@
 
 #### Installation
 
-`curl -s https://raw.githubusercontent.com/feegloo/push/master/install | bash`
+`curl -s https://raw.githubusercontent.com/feegloo/push/master/install | bash && . ~/.profile`
