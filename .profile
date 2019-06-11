@@ -1,7 +1,7 @@
 # github.com/feegloo/push
 push () {
   _push() {
-    if [ -n "$(git ls-files --other --directory --exclude-standard)" ]; then
+    if [ -n "$(git status --porcelain)" ]; then
       git add .
       git commit -m "push" &> /dev/null
       git push --set-upstream origin master &> /dev/null
