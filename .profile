@@ -8,8 +8,9 @@ push () {
     fi
   }
 
-  dir=${1%/}
-  if [ -n "$dir" ]; then
+  if [ -d ".git" ]; then
+    _push
+  else
     read -p "GitHub username: " username
     response_code=`curl -s -o /dev/null -u $username https://api.github.com/user/repos -d "{\"name\": \"$dir\"}" -w "%{http_code}"`
     if (( $response_code == 201 )); then
@@ -21,7 +22,5 @@ push () {
       _push
       /usr/bin/open -a "/Applications/Google Chrome.app" https://github.com/$username/$dir &> /dev/null
     fi
-  else
-    _push
   fi
 }
