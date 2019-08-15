@@ -8,7 +8,7 @@
 
 ### Demo
 
-creating new repository on github <br>
+creating new repository on github, can be empty folder and existing one with files <br>
 ![new_repo](https://user-images.githubusercontent.com/7686877/63064072-dd490980-beff-11e9-8d10-60071e9c0823.gif)
 
 pushing changes <br>
