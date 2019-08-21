@@ -15,6 +15,6 @@ creating new repository on github, can be new directory or existing one with fil
 ![new_repo](https://user-images.githubusercontent.com/7686877/63420269-a6468c80-c406-11e9-9508-494983481324.gif)
 
 pushing new changes <br>
-![push_changes](https://user-images.githubusercontent.com/7686877/63420199-81eab000-c406-11e9-8ce3-4907ed3fb089.png)
+![push_changes](https://user-images.githubusercontent.com/7686877/63420333-c24a2e00-c406-11e9-84e7-7012f81f31b8.gif)
 
 
