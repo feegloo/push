@@ -12,7 +12,9 @@
 ### Demo
 
 creating new repository on github, can be new directory or existing one with files <br>
-![new_repo](https://user-images.githubusercontent.com/7686877/63064072-dd490980-beff-11e9-8d10-60071e9c0823.gif)
+![new_repo](https://user-images.githubusercontent.com/7686877/63420228-8fa03580-c406-11e9-960d-e6fa380162e6.png)
 
 pushing new changes <br>
-![push_changes](https://user-images.githubusercontent.com/7686877/63064074-e1752700-beff-11e9-89cd-d8d1806e6496.gif)
+![push_changes](https://user-images.githubusercontent.com/7686877/63420199-81eab000-c406-11e9-8ce3-4907ed3fb089.png)
+
+
