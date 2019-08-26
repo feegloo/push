@@ -3,7 +3,7 @@
 `push`
 
 1. creates new repository on github  <br>
-2. makes commit and pushes changes
+2. commit changes and push them
 
 ### Installation
 
