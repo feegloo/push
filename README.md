@@ -2,7 +2,7 @@
 
 `push`
 
-1. creates new repository (named as current directory) on github  <br>
+1. creates new repository on github  <br>
 2. makes commit and pushes changes
 
 ### Installation
