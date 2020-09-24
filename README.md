@@ -11,7 +11,7 @@
 
 ### Demo
 
-creating new repository on github, can be new directory or existing one with files <br>
+creating new repository on github, can be new empty directory or existing one with files <br>
 
 ![new_repo](https://user-images.githubusercontent.com/7686877/63420269-a6468c80-c406-11e9-9508-494983481324.gif)
 
