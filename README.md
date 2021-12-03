@@ -7,7 +7,9 @@
 
 ### Installation
 
-`curl -s https://raw.githubusercontent.com/feegloo/push/master/install | bash && . ~/.profile`
+```
+curl -s https://raw.githubusercontent.com/feegloo/push/master/install | bash && . ~/.profile
+```
 
 ### Demo
 
